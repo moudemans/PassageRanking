@@ -131,3 +131,4 @@ dmypy.json
 .idea/
 *.tsv
 *.json
+indexes/
