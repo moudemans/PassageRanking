@@ -132,3 +132,7 @@ dmypy.json
 *.tsv
 *.json
 ../pythonProject/indexes/
+indexes/
+data/
+res.txt
+run.sample.txt
