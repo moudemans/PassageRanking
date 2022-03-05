@@ -1,4 +1,14 @@
 # PassageRanking
+Create the index using the following command
+```
+python -m pyserini.index.lucene   \
+--collection JsonCollection   \
+--input data/   \
+--index indexes/sample_collection_jsonl_2 \   
+--generator DefaultLuceneDocumentGenerator  \
+--threads 1
+```
+
 
 To run bm25 on an input set, use the command bellow in the root folder, changing the index, topics and output accordingly
 ```
